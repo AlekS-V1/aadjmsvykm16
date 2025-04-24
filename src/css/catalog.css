@@ -10,18 +10,29 @@
   padding-left: 20px;
 }
 .container {
+  padding: 0 16px;
+  margin: 0 auto;
 }
 .catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
   background: #f3f3f3;
+  width: 100%;
+  max-width: 335px;
+  margin: 0 auto;
 }
 .watch-pic {
   background: #f3f3f3;
+  width: 208px;
 }
 .item-container {
 }
