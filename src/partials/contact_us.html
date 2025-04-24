@@ -1,12 +1,33 @@
 <section class="contact-section">
  <div class="container">
   <h2 class="title-contact">Contact us</h2>
-    <div>
-        
+    <div class="section-contact-info">
+    <div class="contact-info">
+        <p class="contact-descr">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+        <form class="form-info">
+            <div class="input-group">
+                <label class="contact-label visually-hidden" for="user-name">Name</label>
+                <input class="input-descr" type="text" id="user-name" name="user-name" placeholder="Name" required>
+            </div>
+            <div class="input-group">
+                <label class="contact-label visually-hidden" for="user-mail">Email</label>
+                <input class="input-descr" type="email" id="user-mail" name="user-mail" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <label class="contact-label visually-hidden" for="user-phone">+380</label>
+                <input class="input-descr" type="text" id="user-phone" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$ (+380-XX-XXX-XX-XX)"   placeholder="+380" required>
+            </div>
+            <div class="input-group-comment">
+                <label class="contact-label visually-hidden" for="user-comment">Comment
+                </label>
+                <textarea class="text-input" name="user-comment" id="user-comment" placeholder="Comment"></textarea>
+              </div>
+             <button class="btn-contact-send" type="submit">Send</button>
+        </form>
     </div>
-    <div class="section-contact-img">
-<img src="" width="" height="" alt="">
-    </div>
+   <div class="section-contact-img">
+   <img srcset="/img/contact_us/rectangle11-min.jpg x1, /img/contact_us/rectangle11@2x-min.jpg 2x" 
+   src="/img/contact_us/rectangle11@2x-min.jpg" width="" height="" alt="model-watch" class="img-contact">
+  </div>
  </div>
-
 </section>
