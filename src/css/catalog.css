@@ -43,6 +43,7 @@
   gap: 8px;
   align-self: stretch;
   padding: 0 28px 24px 28px;
+  max-width: none;
 }
 .item-name {
   font-family: 'Gilroy', sans-serif;
@@ -51,6 +52,10 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 .item-text {
   font-family: 'Gilroy', sans-serif;
@@ -92,6 +97,7 @@
   .item-name {
     font-size: 20px;
     line-height: 1;
+    max-width: 285px;
   }
   .item-text {
     line-height: 1.28;
@@ -131,5 +137,8 @@
   }
   .catalog-title {
     padding-left: 65px;
+  }
+  .item-name {
+    max-width: 300px;
   }
 }
