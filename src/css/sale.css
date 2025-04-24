@@ -1,0 +1,251 @@
+.sale-container
+{
+margin: 0 auto;
+}
+.sale-container p
+{
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+.sale-subtitle
+{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+.sale-div
+{
+    display: flex;
+    flex-direction: column;
+}
+.sale-watch-div
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-bottom: 20px;
+}
+/* -----Sale-List-------- */
+.sale-watch-list
+{
+    display: flex;
+    gap: 5px;
+}
+.sale-watch-list-item
+{
+   border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sale-list-image
+{
+    width:54px;
+    height: 54px;
+}
+/* -----Sale-Main-Watch-------- */
+.big-watch-div
+{
+    height: 385px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-watch-div-img
+{
+  width: 235px;
+  height: 285px;
+}
+/* -----Sale-Info-------- */
+.sale-info-div
+{
+border-radius: 30px;
+background-color:#3350E9;
+padding: 48px 28px; 
+}
+.sale-lead
+{
+font-weight: 600;
+font-size: 24px;
+line-height: 117%;
+letter-spacing: -0.02em;
+color:#FBFBFB;
+margin-bottom: 10px;
+}
+.sale-product-teg
+{
+    font-size: 14px;
+    line-height: 129%;
+    color: rgba(251, 251, 251, 0.5);
+     margin-bottom: 20px;
+}
+.sale-price-div
+{
+    margin-bottom: 28px;
+}
+.sale-new-price
+{
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    margin-right: 9px;
+    padding:8px 12px;
+    color: #FBFBFB;
+}
+.sale-old-price
+{
+font-weight: 400;
+ font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.02em;
+text-decoration: line-through;
+ color: rgba(251, 251, 251, 0.5);
+}
+.sale-description
+{
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+color: rgba(251, 251, 251, 0.7);
+margin-bottom: 28px;
+}
+.sale-teg-div
+{
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+}
+.sale-tag-item
+{
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+    .sale-subtitle {
+        margin-bottom: 40px;
+    }
+    .sale-watch-div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+        
+    /* -----Sale-List-------- */
+    .sale-watch-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 132px;
+    }
+        
+    .sale-watch-list-item {
+        width: 132px;
+        height: 132px;
+    }
+        
+    .sale-list-image {
+        width: 96px;
+        height: 100px;
+    }
+    /* -----Sale-Main-Watch-------- */
+    .big-watch-div {
+        width: 100%;
+        height: 552px;
+    }
+    
+    .big-watch-div-img {
+        width: 328px;
+        height: 398px;
+    }
+ /* -----Sale-Info-------- */
+.sale-info-div
+{
+padding:60px; 
+}
+.sale-lead
+{
+width: 436px;
+font-size: 32px;
+}
+.sale-new-price {
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.sale-description
+{
+font-size: 16px;
+}
+.sale-teg-div
+{
+width: 398px;
+}
+.sale-tag-item
+{
+    font-size: 14px;
+}
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 65px;
+    }
+    .sale-div
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    /* -----Sale-List-------- */
+    .sale-watch-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 132px;
+    }  
+    .sale-watch-list-item {
+        transition: transform 0.3s ease;
+    }
+    .sale-watch-list-item:hover,
+    .sale-watch-list-item:focus {
+        transform: scale(1.2);
+        z-index: 1;
+    }
+    .sale-list-image {
+        transition: transform 0.3s ease;
+    }
+    .sale-watch-list-item:hover .sale-list-image,
+    .sale-watch-list-item:focus .sale-list-image {
+        transform: scale(1.2);
+    }
+    /* -----Sale-Main-Watch-------- */
+    .big-watch-div {
+        width: 428px;
+        height: 100%;
+    }
+}
