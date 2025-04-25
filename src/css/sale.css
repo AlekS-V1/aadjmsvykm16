@@ -1,6 +1,8 @@
 .sale-container
 {
 margin: 0 auto;
+padding-top:30px;
+padding-bottom: 30px;
 }
 .sale-container p
 {
@@ -142,10 +144,12 @@ gap: 8px;
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-        padding: 0 32px;
+        padding: 40px 32px;
     }
     .sale-subtitle {
         margin-bottom: 40px;
+        font-size: 48px;
+        line-height: 92%
     }
     .sale-watch-div {
         display: flex;
@@ -183,7 +187,8 @@ gap: 8px;
  /* -----Sale-Info-------- */
 .sale-info-div
 {
-padding:60px; 
+padding:60px;
+height: 558px;
 }
 .sale-lead
 {
@@ -213,7 +218,7 @@ width: 398px;
 @media only screen and (min-width: 1280px) {
     .container {
         max-width: 1280px;
-        padding: 0 65px;
+        padding: 50px 65px;
     }
     .sale-div
     {
@@ -247,5 +252,10 @@ width: 398px;
     .big-watch-div {
         width: 428px;
         height: 100%;
+    }
+    /* -----Sale-Info-------- */
+    .sale-lead
+    {
+        width:389px;
     }
 }
