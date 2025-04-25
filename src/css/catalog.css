@@ -1,7 +1,8 @@
 .catalog-section {
+  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .catalog-title {
   font-weight: 600;
