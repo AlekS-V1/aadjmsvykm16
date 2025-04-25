@@ -112,6 +112,7 @@
   .section-wrap {
     display: flex;
     gap: 40px;
+    justify-content: center;
   }
 
   .section-wrap-item {
