@@ -1,4 +1,4 @@
-<section class="contact-section">
+<section id="contact_us" class="contact-section">
  <div class="container">
   <h2 class="title-contact">Contact us</h2>
     <div class="section-contact-info">
@@ -26,8 +26,13 @@
         </form>
     </div>
    <div class="section-contact-img">
-   <img srcset="/img/contact_us/rectangle11-min.jpg x1, /img/contact_us/rectangle11@2x-min.jpg 2x" 
-   src="/img/contact_us/rectangle11@2x-min.jpg" width="" height="" alt="model-watch" class="img-contact">
-  </div>
+ <picture>
+   <source media="(min-width: 1280px)" srcset="./img/contact_us/contact-watch-desk-min.jpg 1x, /img/contact_us/contact-watch-desk@2x-min.jpg 2x">
+   <source media="(min-width: 768px)"  srcset="./img/contact_us/contact-watch-tab-min.jpg 1x, /img/contact_us/contact-watch-tab@2x-min.jpg 2x">
+   <source media="(max-width: 767px)" srcset="./img/contact_us/contact-watch-mob-min.jpg 1x, /img/contact_us/contact-watch-mob@2x-min.jpg 2x">
+   <img src="./img/contact_us/contact-watch-desk-min.jpg" class="img-contact" alt="model-watch"/>
+ </picture>  
  </div>
-</section>
+</div>
+</div>
+</section> 
