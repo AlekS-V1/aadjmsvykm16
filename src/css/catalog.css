@@ -1,6 +1,7 @@
 .catalog-section {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 40px;
 }
 .catalog-title {
   font-weight: 600;
@@ -9,7 +10,6 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 24px;
-  padding-left: 20px;
 }
 .container {
 }
@@ -17,7 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .catalog-item {
@@ -69,7 +69,6 @@
   display: block;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 60px;
   width: 160px;
   height: 48px;
   background: #3350e9;
@@ -92,7 +91,6 @@
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
-    padding-left: 32px;
   }
   .item-name {
     font-size: 20px;
@@ -103,9 +101,10 @@
     line-height: 1.28;
   }
   .catalog-section {
+    padding-top: 40px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
   }
   .catalog-list {
     row-gap: 32px;
@@ -127,16 +126,20 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .catalog-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 65px;
+  }
   .catalog-item {
     padding-top: 34px;
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 2 * 23px) / 3);
   }
   .catalog-list {
-    column-gap: 24px;
+    column-gap: 23px;
     align-items: stretch;
   }
   .catalog-title {
-    padding-left: 65px;
   }
   .item-name {
     max-width: 300px;
