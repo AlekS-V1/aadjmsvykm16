@@ -1,6 +1,6 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
   <defs>
-    <symbol id="icon-menu-top" viewBox="0 0 40 40">
+    <symbol id="icon-menu-burger" viewBox="0 0 40 40">
       <path d="M5 14.1667H35M5 25.8334H35" stroke="#0C0C0C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
     <symbol id="icon-menu-close" viewBox="0 0 40 40">

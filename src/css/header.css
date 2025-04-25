@@ -54,7 +54,7 @@
 .header-nav-list .nav-link:hover:after {
   content: '';
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   width: 9px;
@@ -96,9 +96,7 @@
 
 .menu-burger {
   color: #374151;
- 
   display: block;
-
   cursor: pointer;
   border: none;
   background: none;
@@ -111,9 +109,7 @@
 
 .menu-burger svg {
   width: 1.5rem;
- 
   height: 1.5rem;
-
 }
 
 
@@ -126,7 +122,10 @@
   overflow-y: auto;
   width: 200px;
   height: 100%;
-  background: rgba(12, 12, 12, 0.92) url('../img/mob-bg-img.jpg') no-repeat center center;
+  background-color: rgba(12, 12, 12, 0.92);
+    background-image: url('../img/mob-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
   background-size: cover;
   background-blend-mode: overlay;
   transform: translateX(100%);
@@ -137,27 +136,27 @@
   align-items: center;
 }
 
-@media (min-width: 640px) {
+@media screen and (min-resolution: 2x) {
   .mobile-menu {
-    width: 16rem;
+      background-image: url('../img/mob-bg-img@x2-min.jpg');
   }
 }
+
+
 
 .mobile-menu.is-open {
   transform: translateX(0);
 }
 
-.mobile-menu-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
-}
+
 
 .mobile-menu .logo {
   color: white;
 }
 
+.mob-menu-container {
+ 
+}
 .menu-close {
   color: white;
   position: absolute;
@@ -198,10 +197,10 @@
   color: #d1d5db;
 }
 
-.mobile-menu-nav .nav-link.active::after {
+.mobile-menu-nav .nav-link:hover:after {
   content: '';
   position: absolute;
-  bottom: -8px;
+  bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
   width: 8px;
@@ -258,8 +257,18 @@
     width: 330px;
     height: 100%;
     overflow-y: auto;
-    background: rgba(12, 12, 12, 0.92) url('../img/tab-bg-img.jpg') no-repeat center center;
+      background-color: rgba(12, 12, 12, 0.92);
+      background-image: url('../img/tab-bg-img.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
   }
+  @media screen and (min-resolution: 2x) {
+  .mobile-menu {
+    background-color: rgba(12, 12, 12, 0.92);
+      background-image: url('../img/tab-bg-img@x2-min.jpg');
+  }
+}
 
   .mobile-menu-nav {
     gap: 32px;
@@ -310,7 +319,8 @@
     gap: 10px;
   }
   .nav-link {
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
 
   .menu-burger {
