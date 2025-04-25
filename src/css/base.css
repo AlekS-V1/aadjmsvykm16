@@ -1,7 +1,7 @@
 :root {
   @font-face {
     font-family: 'Gilroy', sans-serif;
-    src: url('../fonts/Gilroy-Medium.ttf');
+    src: url('/fonts/Gilroy-Medium.ttf');
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
