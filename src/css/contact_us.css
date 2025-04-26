@@ -96,6 +96,41 @@
     border-color: #3350e9;
   }
   
+  /* стилізація інпута при не валідному значенні */
+.input-descr:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+/* стилізація інпута при валідному значенні */
+.input-descr:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.input-descr:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.input-descr:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
   .btn-contact-send {
     border: none;
     background: #3350e9;
@@ -260,12 +295,12 @@
       }
      
       .input-descr {
+      width: 460px;
       font-size: 16px;
       line-height: 1.25;
       color: #0c0c0c;
       border: 1px solid rgba(12, 12, 12, 0.15);
       border-radius: 12px;
-      padding: 16px 315px 16px 16px;
       background: none;
       outline: transparent;
       resize: none;

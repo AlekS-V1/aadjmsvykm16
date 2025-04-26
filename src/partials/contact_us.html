@@ -14,10 +14,15 @@
             <div class="input-group">
                 <label class="contact-label visually-hidden" for="user-mail">Email</label>
                 <input class="input-descr" type="email" id="user-mail" name="user-mail" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required>
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p>
             </div>
             <div class="input-group">
                 <label class="contact-label visually-hidden" for="user-phone">+380</label>
-                <input class="input-descr" type="text" id="user-phone" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$ (+380-XX-XXX-XX-XX)"   placeholder="+380" required>
+                <input class="input-descr" type="text" id="user-phone" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"  title="format +380-XX-XXX-XX-XX"
+                inputmode="tel"   placeholder="+380" required>
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid phone number, try again</p>
             </div>
             <div class="input-group-comment">
                 <label class="contact-label visually-hidden" for="user-comment">Comment
