@@ -1,18 +1,14 @@
 
 /*section contact_us mob version (gumova)*/
 
-.container {
+/*.container {
     width: 100%;
     max-width: 375px;
     margin: 0 auto;
-  }
+  }*/
   
   .contact-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-   
+   margin-bottom: 60px;
   }
   
   .title-contact {
@@ -164,10 +160,10 @@
   }
 /*section contact_us mob version*/
 @media screen and (min-width: 375px) {
-    .container {
+    /*.container {
       max-width: 375px;
       margin: 0 auto;
-    }
+    }*/
 
     .contact-info {
       max-width: 335px;
@@ -198,15 +194,14 @@
   /*section contact_us tablet version*/
   @media screen and (min-width: 768px) {
     .contact-section {
-      padding-top: 40px;
-      padding-bottom: 40px;
+    margin-bottom: 80px;
 
     }
-      .container {
+      /*.container {
         max-width: 768px;
         margin: 0 auto;
         padding: 0 32px;
-      }
+      }*/
     .section-contact-info {
       gap: 40px;
       justify-content: center;
@@ -270,13 +265,12 @@
   /*section contact_us desktop version*/
   @media screen and (min-width: 1280px) {
     .contact-section {
-      padding-top: 50px;
-      padding-bottom: 50px;
+  margin-bottom: 100px;
     }
-    .container {
+   /* .container {
       max-width: 1280px;
       padding: 0 65px;
-    }
+    }*/
 
       .title-contact {
       font-size: 48px;
