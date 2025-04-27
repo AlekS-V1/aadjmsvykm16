@@ -15,6 +15,7 @@
 }
 
 .logo {
+  color: #0C0C0C;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -38,7 +39,7 @@
 
 .header-nav-list .nav-link {
   display: block;
- 
+  color: #0C0C0C;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -123,9 +124,9 @@
   width: 200px;
   height: 100%;
   background-color: rgba(12, 12, 12, 0.92);
-    background-image: url('../img/mob-bg-img.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
+  background-image: url('../img/mob-bg-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   background-blend-mode: overlay;
   transform: translateX(100%);
@@ -150,9 +151,7 @@
 
 
 
-.mobile-menu .logo {
-  color: white;
-}
+
 
 
 .menu-close {
@@ -185,8 +184,7 @@
 }
 
 .mobile-menu-nav .nav-link {
-  color: white;
-  transition: color 0.3s ease;
+  color: #FBFBFB;
   position: relative;
 }
 
@@ -236,7 +234,7 @@
 
 .mobile-social-list .social-icon:hover,
 .mobile-social-list .social-icon:focus {
-  color: white;
+  color: #fbfbfb;;
 }
 
 @media screen and (min-width: 768px) {
