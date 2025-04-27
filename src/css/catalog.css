@@ -1,5 +1,5 @@
 .catalog-section {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .catalog-title {
   font-weight: 600;
@@ -83,6 +83,9 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
+  .catalog-section {
+    margin-bottom: 80px;
+  }
   .catalog-title {
     font-size: 48px;
     line-height: 0.92;

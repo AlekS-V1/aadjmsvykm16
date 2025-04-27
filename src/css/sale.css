@@ -1,5 +1,5 @@
 .section-sale {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .sale-container {
@@ -128,7 +128,9 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  
+  .section-sale {
+    margin-bottom: 80px;
+  }
   .sale-subtitle {
     margin-bottom: 40px;
     font-size: 48px;
@@ -194,7 +196,6 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
- 
   .sale-div {
     display: flex;
     flex-direction: row;

@@ -1,5 +1,5 @@
 .reviews {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .reviews-item.tablet,
 .reviews-item.desk {
@@ -52,10 +52,8 @@
   color: rgba(12, 12, 12, 0.4);
 }
 @media (min-width: 768px) {
-  
-  .reviews-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  .reviews {
+    margin-bottom: 80px;
   }
   .reviews-title {
     line-height: 0.92;
@@ -85,7 +83,6 @@
   }
 }
 @media (min-width: 1280px) {
-  
   .reviews-container {
     padding-top: 50px;
     padding-bottom: 50px;

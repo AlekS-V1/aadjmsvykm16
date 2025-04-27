@@ -1,5 +1,5 @@
 .about-us {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .section-wrap-item {
@@ -64,10 +64,9 @@
 
 /*? 768px */
 @media screen and (min-width: 768px) {
-
-  /* .about-us {
-    padding: 40px 0;
-  } */
+  .about-us {
+    margin-bottom: 80px;
+  }
 
   .section-wrap-item {
     border-radius: 50px;
@@ -98,7 +97,6 @@
 /* ? 1280px */
 
 @media screen and (min-width: 1280px) {
-  
   /* .about-us {
     padding: 50px 0;
   } */
