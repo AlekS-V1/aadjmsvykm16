@@ -1,15 +1,12 @@
 :root {
   @font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url('../fonts/Gilroy-Medium.ttf');
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     color: rgba(12, 12, 12, 0.7);
   }
-}
-
-body {
-  font-family: 'Gilroy', sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .visually-hidden {
