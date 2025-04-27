@@ -58,7 +58,8 @@
 
 
 .nav-link.current::before,
-.header-nav-list .nav-link:hover:after {
+.header-nav-list .nav-link:hover:after,
+.header-nav-list .nav-link:focus:after {
   content: '';
   position: absolute;
   bottom: 30px;
@@ -198,6 +199,7 @@
 }
 
 .nav-link.current-mob::before,
+.mobile-menu-nav .nav-link:focus:after,
 .mobile-menu-nav .nav-link:hover:after {
   content: '';
   position: absolute;
