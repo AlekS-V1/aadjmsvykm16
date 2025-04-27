@@ -1,5 +1,6 @@
 
 /*section contact_us mob version (gumova)*/
+
 .container {
     width: 100%;
     max-width: 375px;
@@ -11,6 +12,7 @@
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
+   
   }
   
   .title-contact {
@@ -24,9 +26,11 @@
   
   .section-contact-info {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
-    flex-wrap: wrap; /* дозволяє переходити в новий ряд */   
+    flex-wrap: wrap; 
   }
   
   .contact-info {
@@ -122,12 +126,10 @@
   color: red;
 }
 
-/* стилізація інформаційного текста при валідному значенні в інпуті */
+
 .input-descr:not(:placeholder-shown):valid ~ .text-valid {
   display: block;
 }
-
-/* стилізація інформаційного текста при не валідному значенні в інпуті */
 .input-descr:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
 }
@@ -164,6 +166,7 @@
 @media screen and (min-width: 375px) {
     .container {
       max-width: 375px;
+      margin: 0 auto;
     }
 
     .contact-info {
@@ -186,6 +189,7 @@
     .section-contact-img {
       display: flex;
       justify-content: center;
+      align-items: center;
       border-radius: 30px;
       max-width: 335px;
       height: 512px;
@@ -196,16 +200,23 @@
     .contact-section {
       padding-top: 40px;
       padding-bottom: 40px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-    .container {
-      max-width: 768px;
-      }
 
+    }
+      .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 32px;
+      }
     .section-contact-info {
       gap: 40px;
+      justify-content: center;
+      align-items: center;
     }
+    .title-contact {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+    
     .contact-info {
       max-width: 704px;
       border-radius: 50px;
@@ -248,8 +259,8 @@
       min-width: 704px;
       height: 556px;
       display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
       border-radius: 50px;
     }
     .img-contact {
@@ -264,8 +275,9 @@
     }
     .container {
       max-width: 1280px;
-      padding: 0px 65px;
-  }
+      padding: 0 65px;
+    }
+
       .title-contact {
       font-size: 48px;
       line-height: 0.91;
@@ -273,10 +285,11 @@
       }
       .section-contact-info {
       display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
       flex-direction: row;
       flex-wrap: nowrap;
+      margin: 0 auto;
       }
       .contact-info {
       border-radius: 50px;

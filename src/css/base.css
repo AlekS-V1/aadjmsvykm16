@@ -10,8 +10,6 @@ body {
   font-family: 'Gilroy', sans-serif;
   margin: 0;
   padding: 0;
-
-  display: flex;
 }
 
 .visually-hidden {
