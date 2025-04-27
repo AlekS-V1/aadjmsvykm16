@@ -1,4 +1,7 @@
-
+.hero-container {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
 .hero {
   display: flex;
   align-items: flex-start;
@@ -6,9 +9,7 @@
   flex-direction: column;
   gap: 28px;
 
-  padding: 0 20px;
   width: 375px;
-  margin-bottom: 30px;
 }
 
 .hero_header_foto {
@@ -108,10 +109,8 @@
 
 @media screen and (min-width: 768px) {
 }
-  
 
 @media screen and (min-width: 1280px) {
-  
 }
 
 @media screen and (min-width: 768px) {
