@@ -139,7 +139,7 @@
     line-height: 0.85714;
   }
   .hero_p {
-    max-width: 480px;
+    width: 480px;
     font-size: 16px;
     line-height: 1.25;
   }
