@@ -1,3 +1,6 @@
+.catalog-section {
+  margin-bottom: 30px;
+}
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
@@ -93,12 +96,12 @@
   .item-text {
     line-height: 1.28;
   }
-  .catalog-section {
+  /* .catalog-section {
     padding-top: 40px;
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 40px;
-  }
+  } */
   .catalog-list {
     row-gap: 32px;
     column-gap: 16px;
@@ -117,14 +120,14 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog-section {
+  /* .catalog-section {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 65px;
     padding-right: 65px;
     max-width: 1150px;
     box-sizing: content-box;
-  }
+  } */
   .catalog-item {
     padding-top: 34px;
     width: calc((100% - 2 * 23px) / 3);

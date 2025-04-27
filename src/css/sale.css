@@ -1,5 +1,5 @@
-.section {
-  margin: 0 auto;
+.section-sale {
+  margin-bottom: 30px;
 }
 
 .sale-container {
@@ -17,6 +17,7 @@
   line-height: 100%;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
+  color: #0c0c0c;
 }
 .sale-div {
   display: flex;

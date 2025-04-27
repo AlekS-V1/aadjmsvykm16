@@ -1,4 +1,6 @@
-
+.reviews {
+  margin-bottom: 30px;
+}
 .reviews-item.tablet,
 .reviews-item.desk {
   display: none;
