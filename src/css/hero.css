@@ -55,7 +55,6 @@
 }
 .hero_foto {
   display: flex;
-  max-height: auto;
   gap: 155px;
 }
 .hero_foto_list {
@@ -65,7 +64,7 @@
   padding: 0;
   margin: 0;
   max-width: none;
-  max-height: auto;
+  max-width: auto;
 }
 
 .hero_foto_list li {
@@ -84,7 +83,7 @@
 .hero_link {
   display: flex;
   align-items: end;
-  justify-items: flex-end;
+  justify-items: end;
 }
 
 .hero_button {
@@ -102,8 +101,10 @@
   border: none;
   background: none;
 
-  max-width: 102px;
+  max-width: 72px;
   height: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .hero_button:hover,
