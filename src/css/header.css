@@ -1,7 +1,5 @@
 .header {
-  background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: #fbfbfb;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -20,6 +18,7 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   flex-shrink: 0;
+  padding: 27.5px 0;
 }
 
 .header-nav {
@@ -88,7 +87,7 @@
 .social-icon-svg:hover,
 .social-icon-svg:focus {
   fill: #3350e9;
-  transition: fill 0.3s ease;
+  transition: fill 250ms ease;
   border: 1px solid rgba(51, 80, 233, 0.1);
 }
 
@@ -106,16 +105,13 @@
   cursor: pointer;
   border: none;
   background: none;
+  padding: 20px 0;
 }
 
-.menu-burger:hover,
-.menu-burger:focus {
-  color: #3350e9;
-}
 
 .menu-burger svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 34px;
+  height: 34px;
 }
 
 
@@ -154,10 +150,14 @@
   transform: translateX(0);
 }
 
+.menu-burger{
+  padding: 26px 0;
+}
 
-
-
-
+.menu-burger svg {
+  width: 40px;
+  height: 40px;
+}
 
 .menu-close {
   color: white;
@@ -245,12 +245,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding-top: 26px;
-    padding-bottom: 26px;
-  }
-
-  .logo {
+  .logo-header {
+    padding: 34px 0;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.02em;
@@ -285,8 +281,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .logo {
-    padding: 30px 0;
+  .logo-header {
+    padding: 32px 0;
   }
   .header {
     padding: 0;
