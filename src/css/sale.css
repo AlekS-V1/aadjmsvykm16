@@ -1,7 +1,7 @@
 .section
 {
  margin: 0 auto;
- margin-bottom:100px;
+ margin-bottom:60px;
 }
 .sale-container
 {
@@ -151,6 +151,9 @@ gap: 8px;
         max-width: 768px;
         padding: 40px 32px;
     }
+        .section {
+            margin-bottom: 80px;
+        }
     .sale-subtitle {
         margin-bottom: 40px;
         font-size: 48px;
@@ -225,6 +228,9 @@ width: 398px;
         max-width: 1280px;
         padding: 50px 65px;
     }
+         .section {
+             margin-bottom: 100px;
+         }
     .sale-div
     {
         display: flex;
