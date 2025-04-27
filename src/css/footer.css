@@ -95,11 +95,11 @@
   color: #fbfbfb;
   /* transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-/* .telefon:hover,
+.telefon:hover,
 .telefon:focus {
-  background-color: #fbfbfb11;
+  /* background-color: #fbfbfb11; */
   color: #fbfbfb;
-} */
+}
 
 .footer-text {
   font-weight: 600;
@@ -212,10 +212,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 40px 40px 28px 40px;
-  }
   .footer {
     padding-top: 100px;
   }

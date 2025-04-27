@@ -110,12 +110,6 @@
 }
 
 @media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 1280px) {
-}
-
-@media screen and (min-width: 768px) {
   .hero-container {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -158,8 +152,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding: 80px 65px 0px 65px;
-    width: 1280px;
+    width: 1150px;
   }
   .hero_header_foto {
     gap: 407px;
