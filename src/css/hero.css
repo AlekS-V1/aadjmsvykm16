@@ -1,7 +1,3 @@
-.container {
-  min-width: 320px;
-  max-width: 375px;
-}
 
 .hero {
   display: flex;
@@ -110,15 +106,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    min-width: 768px;
-  }
 }
+  
 
 @media screen and (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {

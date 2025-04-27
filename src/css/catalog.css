@@ -108,8 +108,6 @@
     padding-top: 34px;
     width: calc((100% - 16px) / 2);
   }
-  .container {
-  }
   .item-hidden {
     display: block;
   }
@@ -135,8 +133,7 @@
     column-gap: 23px;
     align-items: stretch;
   }
-  .catalog-title {
-  }
+
   .item-name {
     max-width: 300px;
   }

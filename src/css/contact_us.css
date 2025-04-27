@@ -1,11 +1,6 @@
 
 /*section contact_us mob version (gumova)*/
 
-.container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-  }
   
   .contact-section {
     padding-top: 30px;
@@ -164,10 +159,7 @@
   }
 /*section contact_us mob version*/
 @media screen and (min-width: 375px) {
-    .container {
-      max-width: 375px;
-      margin: 0 auto;
-    }
+ 
 
     .contact-info {
       max-width: 335px;
@@ -202,11 +194,7 @@
       padding-bottom: 40px;
 
     }
-      .container {
-        max-width: 768px;
-        margin: 0 auto;
-        padding: 0 32px;
-      }
+      
     .section-contact-info {
       gap: 40px;
       justify-content: center;
@@ -273,11 +261,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
     }
-    .container {
-      max-width: 1280px;
-      padding: 0 65px;
-    }
-
+    
       .title-contact {
       font-size: 48px;
       line-height: 0.91;
