@@ -247,7 +247,8 @@
 }
 /*section contact_us desktop version*/
 @media screen and (min-width: 1280px) {
-  .contact-section {margin-bottom: 100px;}
+  .contact-section {
+    margin-bottom: 100px;
   }
 
   .title-contact {

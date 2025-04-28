@@ -123,14 +123,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog-section {
-    /* padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 65px;
-    padding-right: 65px; */
-
-    /* box-sizing: content-box; */
-  }
   .catalog-item {
     padding-top: 34px;
     width: calc((100% - 2 * 23px) / 3);
