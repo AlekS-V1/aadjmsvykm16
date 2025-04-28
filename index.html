@@ -12,8 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script type="module" crossorigin src="/aadjmsvykm16/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/aadjmsvykm16/assets/index-BFCbojSd.css">
+    <link rel="stylesheet" crossorigin href="/aadjmsvykm16/assets/index-Dgdtg6kn.css">
   </head>
   <body>
     <!-- Andrii Turchyn -->
@@ -69,16 +68,21 @@
       </li>
     </ul>
 
-    <button class="menu-burger">
+    <button class="menu-burger" type="button" data-mobmenu-open>
       <svg class="icon" width="40" height="40">
         <use href="/aadjmsvykm16/assets/sprite-CKYl9PaT.svg#icon-menu-burger"></use>
       </svg>
     </button>
   </div>
 
-  <div class="mobile-menu is-ope">
+  <div class="mobile-menu data-mobmenu">
     <div class="mobile-menu-header">
-      <button id="menu-close" class="menu-close">
+      <button
+        id="menu-close"
+        class="menu-close"
+        type="button"
+        data-mobmenu-close
+      >
         <svg class="icon" width="17" height="17">
           <use href="/aadjmsvykm16/assets/sprite-CKYl9PaT.svg#icon-menu-close"></use>
         </svg>
@@ -134,7 +138,7 @@
 
 
     <main>
-      <!-- ? -->
+      <!-- Serhii -->
       <section class="hero-container" id="hero">
   <div class="container">
     <div class="hero">
@@ -431,21 +435,22 @@
 </section>
 
       <!-- Aleks -->
-      <section class="advertisement_section" id="advertisement">
+      <section class="advertisement_section container" id="advertisement">
   <div class="advertisement">
     <div class="advertisement-img"></div>
     <div class="advertisement_content">
       <h2 class="visually-hidden">Advertisement</h2>
-        <p class="advertisement_text">
-          Choose <span class="your_story">your story</span>, making every moment
-          unique. Time is your style, and we reveal it.
-        </p>
-      
-      <a class="btn_adv" href="#contact_us" type="button" data-modal-open>Contact Us</a>
+      <p class="advertisement_text">
+        Choose <span class="your_story">your story</span>, making every moment
+        unique. Time is your style, and we reveal it.
+      </p>
+
+      <a class="btn_adv" href="#contact_us" type="button" data-modal-open
+        >Contact Us</a
+      >
     </div>
   </div>
 </section>
-
 
       <!-- Михайло Гурєських -->
       <section class="section-sale" id="sale">
@@ -572,7 +577,7 @@
     </div>
 </section>
       <!-- Vira Khan -->
-      <section id="contact_us" class="contact-section" id="contact_us">
+      <section id="contact-us" class="contact-section">
   <div class="container">
     <h2 class="title-contact">Contact us</h2>
     <div class="section-contact-info">
@@ -670,7 +675,7 @@
 
     </main>
 
-    <!-- ?? -->
+    <!-- Михайло Гурєських -->
 
     <footer class="footer" id="footer">
   <div class="container footer-container">
@@ -769,5 +774,6 @@
 </footer>
 
 
+    <script src="./js/mobmenu.js"></script>
   </body>
 </html>
