@@ -248,8 +248,7 @@
 /*section contact_us desktop version*/
 @media screen and (min-width: 1280px) {
   .contact-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 100px;
   }
 
   .title-contact {
