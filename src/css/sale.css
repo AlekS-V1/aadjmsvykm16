@@ -111,7 +111,7 @@
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 28px;
 }
-.sale-teg-div {
+.sale-teg-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
