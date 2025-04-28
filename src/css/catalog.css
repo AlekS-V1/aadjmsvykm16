@@ -15,12 +15,12 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
+  justify-items: center;
 }
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,6 +89,7 @@
   .catalog-section {
     padding-bottom: 80px;
   }
+
   .catalog-title {
     font-size: 48px;
     line-height: 0.92;
@@ -106,13 +107,14 @@
     row-gap: 32px;
     column-gap: 16px;
     align-items: stretch;
+    justify-content: center;
   }
   .catalog-item {
     padding-top: 34px;
     width: calc((100% - 16px) / 2);
   }
   .item-hidden {
-    display: block;
+    display: flex;
   }
   .catalog-btn {
     display: none;
