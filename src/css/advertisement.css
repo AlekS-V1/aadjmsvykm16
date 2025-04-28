@@ -4,8 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 375px;
+  /* margin: 0 auto; */
   margin-bottom: 60px;
+  /* max-width: 375px; */
 }
 .advertisement {
   background-image: linear-gradient(to bottom, #0c0c0c, #0c0c0c);
@@ -80,6 +81,7 @@
 @media screen and (min-width: 768px) {
   .advertisement_section {
     margin-bottom: 80px;
+    /* max-width: 768px; */
   }
   .advertisement {
     width: 704px;
@@ -113,6 +115,7 @@
 @media screen and (min-width: 1280px) {
   .advertisement_section {
     margin-bottom: 100px;
+    /* max-width: 1280px; */
   }
   .advertisement {
     width: 1150px;
