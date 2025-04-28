@@ -44,7 +44,7 @@
   opacity: 1;
   color: rgba(251, 251, 251, 0.5);
 }
-.btn_adv {
+.buton_adv {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,9 +61,12 @@
   color: #ffffff;
   padding: 15px 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
 }
-.btn_adv:hover,
-.btn_adv:focus {
+.buton_adv:hover,
+.buton_adv:focus {
   color: #0c0c0c;
   background-color: #fbfbfb;
 }
