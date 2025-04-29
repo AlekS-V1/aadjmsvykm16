@@ -52,7 +52,7 @@ padding-bottom: 60px;
 .input-descr {
   padding-top: 12px;
   padding-left: 14px;
-  width: 220px;
+  min-width: 220px;
   height: 42px;
   font-weight: 400;
   font-size: 14px;
@@ -70,7 +70,7 @@ padding-bottom: 60px;
 .text-input {
   padding-top: 12px;
   padding-left: 14px;
-  width: 220px;
+  min-width: 220px;
   height: 84px;
   font-weight: 400;
   font-size: 14px;
