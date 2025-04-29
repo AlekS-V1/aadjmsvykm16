@@ -1,6 +1,12 @@
 .catalog-section {
   padding-bottom: 60px;
 }
+.catalog-item picture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
