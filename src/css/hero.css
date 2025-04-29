@@ -1,6 +1,9 @@
 .hero-container {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  min-width: 280px;
+  max-width: 375px;
 }
 .hero {
   display: flex;
@@ -8,8 +11,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 28px;
-
-  width: 335px;
 }
 
 .hero_header_foto {
@@ -47,7 +48,6 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
-  width: 335px;
 }
 .hero_foto {
   display: flex;
@@ -97,11 +97,10 @@
   cursor: pointer;
   border: none;
   background: none;
+  transition: fill 250ms ease;
 
-  max-width: 72px;
-  height: 20px;
+  min-width: 72px;
   padding: 0;
-  margin: 0;
 }
 
 .hero_button:hover,
@@ -111,8 +110,8 @@
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .hero {
     gap: 40px;
@@ -138,19 +137,21 @@
     align-items: flex-end;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 180px;
+    gap: 240px;
   }
 
   .hero_button {
     font-size: 20px;
     line-height: 1;
-  }
-  .hero_button {
-    max-width: 120px;
+    justify-items: end;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .hero {
     width: 1150px;
   }
