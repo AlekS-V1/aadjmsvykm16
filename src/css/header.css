@@ -114,10 +114,11 @@
   cursor: pointer;
   border: none;
   background: none;
-  padding: 18px 0;
+  padding: 20px 0;
 }
 
 .menu-burger svg {
+  display: block;
   width: 34px;
   height: 34px;
 }
@@ -267,7 +268,7 @@
 
 @media screen and (min-width: 768px) {
   .menu-burger {
-    padding: 22px 0;
+    padding: 26px 0;
   }
   .menu-burger svg {
     width: 40px;
