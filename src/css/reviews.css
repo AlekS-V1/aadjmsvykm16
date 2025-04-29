@@ -1,5 +1,5 @@
 .reviews {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 .reviews-item.tablet,
 .reviews-item.desk {
@@ -16,9 +16,8 @@
 .reviews-item {
   border-radius: 30px;
   padding: 32px 36px;
-  /* width: 100%; */
+  width: 100%;
   background-color: #f3f3f3;
-  width: 335px;
 }
 .rev-img-wrapper {
   width: 56px;
@@ -53,7 +52,7 @@
 }
 @media (min-width: 768px) {
   .reviews {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .reviews-title {
     line-height: 0.92;
@@ -83,10 +82,9 @@
   }
 }
 @media (min-width: 1280px) {
-  .reviews-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+  .reviews {
+      padding-bottom: 100px;
+    }
   .reviews-item.desk {
     display: block;
   }
