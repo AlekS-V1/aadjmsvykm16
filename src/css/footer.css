@@ -36,8 +36,8 @@
   flex-direction: column;
   gap: 8px;
   margin-top: 24px;
-  border-top: 1px solid rgba(251, 251, 251, 0.1);
-  padding-top: 20px;
+    border-top: 1px solid rgba(251, 251, 251, 0.1);
+      padding-top: 20px;
 }
 
 .last-div {
@@ -115,7 +115,7 @@
 
 .telefon:hover,
 .telefon:focus {
-  background-color: #FBFBFB;
+ background-color: #FBFBFB;
   color: #0C0C0C;
 }
 
@@ -240,7 +240,6 @@
 
   .lat-text {
     font-size: 14px;
-
     line-height: 129%;
   }
 }
