@@ -35,6 +35,8 @@
   color: #fbfbfb;
   opacity: 1;
   margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
 }
 .your_story {
   font-weight: 600;
