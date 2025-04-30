@@ -42,6 +42,7 @@
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
+  white-space: nowrap;
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
