@@ -135,7 +135,7 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .section-sale {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .sale-subtitle {
     margin-bottom: 40px;
@@ -194,11 +194,15 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
+  .section-sale {
+    padding-bottom: 100px;
+  }
   .sale-div {
     display: flex;
     flex-direction: row;
     gap: 40px;
   }
+
   /* -----Sale-List-------- */
   .sale-watch-list {
     display: flex;

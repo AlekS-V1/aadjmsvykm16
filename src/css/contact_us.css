@@ -258,7 +258,7 @@ padding-bottom: 60px;
   .section-contact-info {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 0 auto;

@@ -1,5 +1,5 @@
 .footer {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-container {
@@ -173,7 +173,7 @@
 
 @media only screen and (min-width: 768px) {
   .footer {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
   }
 
   .footer-container {
@@ -263,8 +263,6 @@
     max-width: 1216px;
   }
   .footer-container {
-    /* min-width: 1216px;
-    max-width: 1216px; */
     position: relative;
   }
 
