@@ -107,6 +107,7 @@
   line-height: 133%;
   text-transform: uppercase;
   text-align: center;
+  white-space: nowrap;
   color: #fbfbfb;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -257,9 +258,13 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-container {
-    min-width: 1216px;
+  .container {
+    padding: 0;
     max-width: 1216px;
+  }
+  .footer-container {
+    /* min-width: 1216px;
+    max-width: 1216px; */
     position: relative;
   }
 
