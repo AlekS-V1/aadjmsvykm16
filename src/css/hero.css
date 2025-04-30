@@ -82,9 +82,7 @@
 }
 
 .hero_button {
-  display: block;
-  right: 0px;
-  bottom: 0px;
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
