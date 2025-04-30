@@ -110,6 +110,7 @@
   .hero-container {
     padding-top: 80px;
     padding-bottom: 80px;
+    max-width: 768px;
   }
   .hero {
     gap: 40px;
