@@ -2,6 +2,14 @@
   padding-bottom: 20px;
 }
 
+.containers_wrapper {
+
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .footer-container {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
@@ -175,6 +183,10 @@
   .footer {
     padding-bottom: 32px;
   }
+  .containers_wrapper {
+    max-width: 768px;
+    padding: 0 32px;
+  }
 
   .footer-container {
     padding: 40px 40px 28px 40px;
@@ -258,12 +270,17 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    padding: 0;
-    max-width: 1216px;
+  .containers_wrapper {   
+
+    max-width: 1280px;
+    padding: 0 32px;
+
   }
+  
   .footer-container {
     position: relative;
+    max-width: 1216px;
+    
   }
 
   /* ----------DIV----------------- */
